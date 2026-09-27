@@ -3,6 +3,11 @@ This is the official implementation of MeteoSage, an agentic framework that conn
 
 We also introduced WxFlowBench[https://huggingface.co/datasets/when665/WxFlowBench], a benchmark grounded in multi-source observations, operational products, and real-world meteorological reports. 
 
+## Environment Setup
+1. Refer to [uv](https://docs.astral.sh/uv/getting-started/installation/#installation-methods) for installation. For example, `curl -LsSf https://astral.sh/uv/install.sh | sh` works for Linux with `curl`.
+2. Clone this repository and enter the root of this repository.
+3. Run `uv sync` to create environment named `WeatherAgent`
+
 ## Code organization
 
 | Module | Entry points | Responsibility |
