@@ -1,0 +1,169 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "e19083e3910c193eaf84df3c8cd5b5b36ff84ccb9f6be4e9c97af419c1ea25f9",
+      "purpose": "Local environment, credential, cache, and generated-data exclusions."
+    },
+    {
+      "path": "README.md",
+      "sha256": "6476174074c730c1e6b393bc5f793ab198cb6c46498c44d1087ad0c6b49eb3d2",
+      "purpose": "Project introduction and module navigation."
+    },
+    {
+      "path": "docs/code-map.md",
+      "sha256": "aae1468cc76cd92d8c7c152ca92ecbff6db68f8e947708bfcd21f25b5baec43d",
+      "purpose": "Module responsibilities and code reading order."
+    },
+    {
+      "path": "src/weather_agent/action_contracts.py",
+      "sha256": "fba163f2c23786294572fc4a4824b78e22eacce2df4896ef871276704bc950a6",
+      "purpose": "Action preparation, execution, effect, and failure contracts."
+    },
+    {
+      "path": "src/weather_agent/action_operations.py",
+      "sha256": "356f1bbbf54b72c068f38903a557ca67fb2ce36a8974c6c902a50102acbd7b82",
+      "purpose": "Registered operation owner bindings."
+    },
+    {
+      "path": "src/weather_agent/agent_policy.py",
+      "sha256": "8201c78deb7eea659eccee82c404fbd06c054439c4b8367d667676ce31d50d48",
+      "purpose": "Deterministic decisions through the public operation interface."
+    },
+    {
+      "path": "src/weather_agent/coderun_operation.py",
+      "sha256": "2ce8f72ae87d161563d9082f66c1860554cad4f901037116740290ff9d2b7ffb",
+      "purpose": "Artifact-scoped code execution operation."
+    },
+    {
+      "path": "src/weather_agent/episode_runner.py",
+      "sha256": "9774cd18cf49cd0e6c456b9d9e37ab14a4d5b3eaf1734287891e859872b5c21f",
+      "purpose": "Agent turns, decisions, operation execution, and final outputs."
+    },
+    {
+      "path": "src/weather_agent/evidence.py",
+      "sha256": "2ac2c7673620276fe75e8728ed51976c26fa0d8197aaa2065dad12fcbb1a5dcf",
+      "purpose": "Evidence descriptors and temporal and spatial selection records."
+    },
+    {
+      "path": "src/weather_agent/forecast_operations.py",
+      "sha256": "7b8ed36861e63aea14a084bea2dbcea9611d547a19c85ca77334c1194f968f03",
+      "purpose": "Forecast combination operation contracts and adapters."
+    },
+    {
+      "path": "src/weather_agent/hosted_agent_policy.py",
+      "sha256": "ef5d209ec4ab78edd750f74154144198f130ae0c0933f47ab12f2ad3e3703823",
+      "purpose": "Hosted model request construction, decisions, and response handling."
+    },
+    {
+      "path": "src/weather_agent/installed_science.py",
+      "sha256": "acd42ed687d9cfad38b64ba2af5a67af86d5b30d957030105baa49a77b5a36f7",
+      "purpose": "Scientific asset registration and answer composition."
+    },
+    {
+      "path": "src/weather_agent/knowledge_operations.py",
+      "sha256": "ea4e18bd83ed39023956a758cafb3f060522dad736389d632d08036c28e0893d",
+      "purpose": "Knowledge discovery and reading operations."
+    },
+    {
+      "path": "src/weather_agent/prompts/memory_prefinal/active-search-purpose.txt",
+      "sha256": "5ebf6c70aa6ac3f86cf9442d81d7366182b93a0a74bd6218e9f6d25f5d78fb26",
+      "purpose": "Active memory-search prompt."
+    },
+    {
+      "path": "src/weather_agent/prompts/memory_prefinal/pre-final-notice.txt",
+      "sha256": "e84e29d46d9b87864388a46ecb7c99c53004b272dab7c250ed55d982b6f45563",
+      "purpose": "Pre-final advice prompt."
+    },
+    {
+      "path": "src/weather_agent/prompts/memory_prefinal/pre-final-selection.txt",
+      "sha256": "c047f788acb419cb6a1c8d909c505fb1433bf1f0b331ca29f73c6ec29cb03d3b",
+      "purpose": "Pre-final memory-selection prompt."
+    },
+    {
+      "path": "src/weather_agent/prompts/memory_prefinal/report-final-purpose.txt",
+      "sha256": "26de6a9eb2c8cbc1a5509963fd196cae376548aa11e22d990836f8143a78b6be",
+      "purpose": "Report submission prompt."
+    },
+    {
+      "path": "src/weather_agent/prompts/memory_prefinal/report-pre-final-notice.txt",
+      "sha256": "94178ae3c457e374dc2a06ab1adbdf9549df30ad0d63a7ad841ba6e5285e4632",
+      "purpose": "Pre-final report advice prompt."
+    },
+    {
+      "path": "src/weather_agent/public_composition.py",
+      "sha256": "9d66ccc7a6f9892d8bab5978f08d16942a754f4e2d9d7cd650fce3f1655108b9",
+      "purpose": "Public operation and resource composition."
+    },
+    {
+      "path": "src/weather_agent/run_state.py",
+      "sha256": "13b711ae1bb2e8884aef9b5da1d822f4f7f359a6553d3d2a95fdc84877895de4",
+      "purpose": "Plans, attempts, observations, and execution state."
+    },
+    {
+      "path": "src/weather_agent/scientific_composition.py",
+      "sha256": "799f48d3566a5520051f9b9faa388d5e925159ca7136c8b0cd23c58dc0abdacb",
+      "purpose": "Scientific source and tool composition."
+    },
+    {
+      "path": "src/weather_agent/startup.py",
+      "sha256": "49d3e54256c74bfc265fa9043bc0e02d3ceea08971f51580873cb45cc62560dd",
+      "purpose": "Task startup and deployment context."
+    },
+    {
+      "path": "src/weather_agent/t3_t4/memory_binding.py",
+      "sha256": "cd38c3d8d799fa217b9cb092b2a542a3337f16d87a44500ab399e617eebbc7f2",
+      "purpose": "Memory configuration and task-node binding."
+    },
+    {
+      "path": "src/weather_agent/t3_t4/report_final.py",
+      "sha256": "522b29d7c0075fef40674145a60af305c5d963f7cb87d098253634b2c9a5e8b4",
+      "purpose": "Report submission and typed final output."
+    },
+    {
+      "path": "src/weather_agent/t3_t4/report_intent.py",
+      "sha256": "19efc2961850cfd879122ddd414df584ebf4cd60f8a7252a7c24ce8fb4e9b083",
+      "purpose": "Original report arguments and submission intent."
+    },
+    {
+      "path": "src/weather_agent/t3_t4/report_schema.py",
+      "sha256": "7b6b3580075bc48400af7a9fb4d702a9168085bbf99899eb86915f2fce714a6a",
+      "purpose": "Report argument schema."
+    },
+    {
+      "path": "src/weather_agent/trajectory_memory.py",
+      "sha256": "794a57caeb74c608f987b7e5e49bbe8aceb01f48d9890a360ff939619312c249",
+      "purpose": "Memory advisory records and recall interfaces."
+    },
+    {
+      "path": "src/weather_agent/trajectory_memory_consumption.py",
+      "sha256": "44f77ebfe4d5981588dfcb3dfb7a31339f930a5f3201ca6c0f23712707203a90",
+      "purpose": "Pre-final context and memory advice delivery."
+    },
+    {
+      "path": "src/weather_agent/trajectory_memory_generation.py",
+      "sha256": "0bd2627f4f5dd49926e02a43a3479a97fa92918b557fa8d272af75f9ed621f24",
+      "purpose": "Memory generation workflow and candidate validation."
+    },
+    {
+      "path": "src/weather_agent/trajectory_memory_retrieval.py",
+      "sha256": "f9476d4c0ef729c2b1395d8956c5e77c265f4a193c3f6255ec92fbbb9ec32bef",
+      "purpose": "Semantic retrieval, candidates, reranking, and RPC clients."
+    },
+    {
+      "path": "src/weather_agent/trajectory_memory_selection.py",
+      "sha256": "a07fec650b248df7ef07a8dbafe7f8d22c7cee8f829882c7d09f80ccd365c38f",
+      "purpose": "Contextual memory selection and advice packing."
+    },
+    {
+      "path": "src/weather_agent/working_state.py",
+      "sha256": "8c1272f3405935bfb06987f1f8cfdc8b9ca5eb60c010f40d1d03ca4363aab49a",
+      "purpose": "Working-state views and action update context."
+    },
+    {
+      "path": "src/weather_agent/working_state_delivery.py",
+      "sha256": "7210cc36580a11423aeac352b1de368208f47c29a27d44f82b908e6a126fe6ff",
+      "purpose": "Working-state and notebook delivery."
+    }
+  ]
+}
